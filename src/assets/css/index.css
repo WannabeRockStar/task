@@ -327,6 +327,7 @@ nav .nav-list .nav-link {
 
 .product-list {
   display: flex;
+  transform: translateX(-34px);
 }
 
 .grey-bg {

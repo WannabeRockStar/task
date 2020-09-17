@@ -31,7 +31,7 @@ const Video = () => {
 
                 <div className="video-file">
                     <img src={require("./../assets/img/wave.png")} alt="surf-video" />
-                    <div class="play-button">
+                    <div className="play-button">
                         <img src={require('./../assets/img/play-button.png')} alt=""/>
                     </div>
                 </div>
