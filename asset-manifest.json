@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/task/static/css/main.017307ab.chunk.css",
+    "main.js": "/task/static/js/main.3fbbd45e.chunk.js",
+    "main.js.map": "/task/static/js/main.3fbbd45e.chunk.js.map",
+    "runtime-main.js": "/task/static/js/runtime-main.cf74d6d5.js",
+    "runtime-main.js.map": "/task/static/js/runtime-main.cf74d6d5.js.map",
+    "static/js/2.634218ab.chunk.js": "/task/static/js/2.634218ab.chunk.js",
+    "static/js/2.634218ab.chunk.js.map": "/task/static/js/2.634218ab.chunk.js.map",
+    "index.html": "/task/index.html",
+    "precache-manifest.18f5bd5839b36fb6e9c7ebac74a5cccb.js": "/task/precache-manifest.18f5bd5839b36fb6e9c7ebac74a5cccb.js",
+    "service-worker.js": "/task/service-worker.js",
+    "static/css/main.017307ab.chunk.css.map": "/task/static/css/main.017307ab.chunk.css.map",
+    "static/js/2.634218ab.chunk.js.LICENSE.txt": "/task/static/js/2.634218ab.chunk.js.LICENSE.txt",
+    "static/media/Clip.png": "/task/static/media/Clip.92bc5054.png",
+    "static/media/index.css": "/task/static/media/Poppins-Light.f6ea751e.ttf",
+    "static/media/baze.png": "/task/static/media/baze.5e6e23c2.png",
+    "static/media/beach.png": "/task/static/media/beach.552f9e00.png",
+    "static/media/blog.png": "/task/static/media/blog.3dc46ed5.png",
+    "static/media/board1.png": "/task/static/media/board1.986c307f.png",
+    "static/media/board2.png": "/task/static/media/board2.812d2489.png",
+    "static/media/board3.png": "/task/static/media/board3.06799fc3.png",
+    "static/media/img.png": "/task/static/media/img.c4f659b8.png",
+    "static/media/wave.png": "/task/static/media/wave.88fdfcbe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf74d6d5.js",
+    "static/js/2.634218ab.chunk.js",
+    "static/css/main.017307ab.chunk.css",
+    "static/js/main.3fbbd45e.chunk.js"
+  ]
+}
