@@ -1,0 +1,595 @@
+@font-face {
+  src: url('./../font/LeagueSpartan-Bold.otf');
+  font-family: 'league-spartan-bold';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url('./../font/PlayfairDisplay-Bold.ttf');
+  font-family: 'pfd-bold';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url('./../font/PlayfairDisplay-Regular.ttf');
+  font-family: 'pfd-regular';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url('./../font/Poppins-Light.ttf');
+  font-family: 'poppins-light';
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins-light';
+}
+
+html {
+
+}
+
+body {
+  background: #fff;
+}
+
+.wrapper-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+.wrapper {
+  position: relative;
+  padding-left: 105px;
+  padding-right: 110px;
+}
+
+.wrapper-sm {
+  position: relative;
+  padding-left: 290px;
+  padding-right: 180px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.link {
+  font-family: 'league-spartan-bold';
+  font-size: 9px;
+  letter-spacing: 6px;
+  color: #333333;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #5DA8EF;
+}
+
+.title {
+  font-family: 'pfd-bold';
+  font-size: 42px;
+  line-height: 66px;
+  color: #333333;
+}
+
+.text {
+  font-family: 'poppins-light';
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #a3a3a3;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 50px;
+  margin-top: 38px;
+  width: 781px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
+nav {
+  height: 100%;
+}
+
+nav .nav-list {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+  align-items: center;
+}
+
+nav .nav-list .nav-item {
+  margin-right: 46px;
+}
+
+nav .nav-list .nav-item:last-child {
+  margin-right: 0;
+}
+
+nav .nav-list .nav-link {
+  color: #0B0C11;
+  font-size: 9px;
+  font-family: 'league-spartan-bold';
+  letter-spacing: 6px;
+}
+
+/******* HERO SECTION ********/
+
+.hero-section {
+  display: flex;
+  position: relative;
+  margin-bottom: 160px;
+}
+
+.hero-info {
+  position: absolute;
+  width: 543px;
+  top: 30%;
+}
+
+.hero-info .hero-tag {
+  font-family: 'league-spartan-bold';
+  color: #5DA8EF;
+  font-size: 9px;
+  margin-bottom: 25px;
+}
+
+.hero-info .hero-title {
+  font-family: 'pfd-bold';
+  font-size: 62px;
+  line-height: 64px;
+  color: #0B0C11;
+  margin-bottom: 35px;
+}
+
+.hero-info .hero-text {
+  font-family: 'poppins-light';
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing:2.5px;
+  color: #8F8F8F;
+}
+
+.hero-image {
+  padding-left: 209px;
+  width: 100%;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.flex-hero {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 52px;
+    top: -60px;
+    height: 100%;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  display: inline;
+  text-align: end;
+  font-family: 'league-spartan-bold';
+  color: #0B0C11;
+  opacity: .2;
+  font-size: 9px;
+  letter-spacing: 6px;
+}
+
+.flex-hero .social {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 60px;
+}
+
+.social span {
+  margin-bottom: 20px;
+}
+
+.social span:last-child {
+  margin-bottom: 0;
+}
+
+.video-section {
+  margin-bottom: 192px;
+}
+
+.video-quote {
+  width: 725px;
+  margin: auto;
+  padding-bottom: 46px;
+}
+
+.video-quote .video-title {
+  font-family: 'pfd-regular';
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 38px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 1.25rem;
+}
+
+.video-quote .video-author {
+  font-family: 'league-spartan-bold';
+  font-size: 9px;
+  text-align: center;
+  letter-spacing: 6px;
+  color: #333333;
+}
+
+.blue-stick {
+  height: 100px;
+  width: 2px;
+  background: #5DA8EF;
+  margin: auto;
+  margin-bottom: 62px;
+}
+
+.video-blog-container {
+  display: flex;
+  position: relative;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+.video-blog .video-blog-image {
+  width: 100%;
+  margin-bottom: 54px;
+}
+
+.video-blog .video-blog-image img {
+  width: 100%;
+  display: block;
+}
+
+.video-blog .video-blog-text {
+  font-family: 'poppins-light';
+  font-size: 14px;
+  color: #616161;
+  width: 345px;
+  margin: auto;
+  
+}
+
+.video-blog .video-blog-text .txt {
+  margin-bottom: 26px;
+  line-height: 24px;
+}
+
+.video-blog .video-blog-text a {
+  font-family: 'league-spartan-bold';
+  font-size: 9px;
+  letter-spacing: 6px;
+  color: #333333;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #5DA8EF;
+}
+
+.video-file {
+  position: absolute;
+  right: 0;
+  top: 43px;
+}
+
+.video-file img {
+  width: 100%;
+}
+
+/******** PRODUCTS SECTION *********/
+
+.product-section {
+  margin-bottom: 121px;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title-container .sub-title {
+  font-family: 'league-spartan-bold';
+  font-size: 9px;
+  letter-spacing: 6px;
+  color: #5DA8EF;
+}
+
+.title-container .product-section-title {
+  font-family: 'pfd-bold';
+  font-size: 42px;
+  color: #333333;
+  line-height: 66px;
+}
+
+.product-list {
+  display: flex;
+}
+
+.grey-bg {
+  background: #ECECEC;
+  width: 250px;
+  height: 320px;
+  position: absolute;
+  z-index: -1;
+  left: 35px;
+  bottom: 55px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.product-info {
+  position: relative;
+  left: -4rem;
+  top: 5rem;
+  width: 197px;
+}
+
+.product-info .product-cat {
+  font-family: 'Poppins-Light';
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 14px;
+  color: #7A7A7A;
+}
+
+.product-info .board-title {
+  font-family: "pfd-regular";
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  color: #333333;
+  margin-bottom: 2rem;
+}
+
+.product-info .board-price-box {
+  text-align: center;
+}
+
+.product-info .board-price {
+  font-family: 'poppins-light';
+  color: #CE60A8;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.product-info .board-buy {
+  font-family: 'league-spartan-bold';
+  font-size: 9px;
+  letter-spacing: 6px;
+  color: #333333;
+}
+
+.product-section .more {
+  text-align: center;
+}
+
+/******** BLOG SECTION *********/
+
+.blog-section {
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.blog-info {
+  padding-left: 70px;
+  padding-top: 64px;
+  width: 40%;
+}
+
+.blog-info .blog-num,
+.blog-min-info .blog-num {
+  font-family: 'league-spartan-bold';
+  font-size: 130px;
+  position: absolute;
+  top: 0;
+  color: #F9F9F9;
+  letter-spacing: 10px;
+  z-index: -1;
+}
+
+.blog-info .blog-title {
+  font-family: 'pfd-bold';
+  font-size: 42px;
+  line-height: 66px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.blue-line-y,
+.blue-min-line-y {
+  width: 23px;
+  height: 2px;
+  background: #5DA8EF;
+  margin-bottom: 35px;
+}
+
+.vertical-blog-text {
+  position: absolute;
+  right: 77px;
+}
+
+.blog-info .blog-text {
+  font-family: 'poppins-light';
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #a3a3a3;
+  /* width: 345px; */
+  margin-bottom: 64px;
+  padding-right: 60px;
+}
+
+/* .blog-image {
+  width: 53%;
+} */
+
+.blog-image img {
+  width: 100%;
+}
+
+/******* BLOH MIN SECTION ********/
+
+.blog-min-section {
+  display: flex;
+  margin-bottom: 113px;
+}
+
+.blog-min-section .blog-min-info {
+  padding-left: 75px;
+  padding-top: 64px;
+}
+
+.blog-min-section .blog-min-text {
+  font-family: 'poppins-light';
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #a3a3a3;
+  padding-bottom: 64px;
+}
+
+/********** CONTACT SECTION ***********/
+
+.contact-section {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+  margin-bottom: 140px;
+}
+
+.contact-section .contact-title {
+  margin-bottom: 32px;
+}
+
+.contact-section .contact-text {
+  margin-bottom: 32px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-control {
+  height: 50px;
+  width: 100%;
+  background: #F5F5F5;
+  border: none;
+  outline: none;
+  padding-left: 2rem;
+  line-height: 50px;
+}
+
+.contact-btn {
+  position: absolute;
+  width: 50px;
+  top: 0;
+  right: 0;
+  height: 50px;
+  background: #5DA8EF;
+  border: none;
+  outline: none;
+}
+
+.contact-btn svg {
+  position: relative;
+  top: 3px;
+}
+
+.form-control::placeholder {
+  font-size: 9px;
+  font-family: 'league-spartan-bold';
+  letter-spacing: 6px;
+}
+
+/******** COMPANY SECTION ********/
+
+.company-section {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.company-info {
+  padding-left: 43px;
+  margin-top: 100px;
+}
+
+.company-info .company-subtitle {
+  font-size: 9px;
+  font-family: 'league-spartan-bold';
+  letter-spacing: 6px;
+  opacity: 0.27;
+  margin-bottom: 60px;
+}
+
+.company-info .address {
+  font-family: 'pfd-bold';
+  font-size: 32px;
+  letter-spacing: 1px;
+  line-height: 46px;
+  color: #333;
+  margin-bottom: 64px;
+  padding-left: 48px;
+}
+
+/******** FOOTER SECTION ********/
+
+footer {
+  text-align: center;
+  margin-bottom: 95px;
+}
+
+footer .logo {
+  margin-bottom: 35px;
+}
+
+footer nav {
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+footer .social-media {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-media .media-item {
+  margin-right: 2rem;
+}
+
+footer .social-media .media-item:last-child {
+  margin-right: 0;
+}
+
+.link-blue {
+  color: #5DA8EF;
+}
